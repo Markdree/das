@@ -4,7 +4,7 @@ import yfinance as yf
 
 
 
-st.title("Inversiones Finanzas")
+st.title("Inversiones en Acciones")
 
 tickers = ["AAPL","MSFT","TSLA","BTC-USD","ETH-USD"]
 
