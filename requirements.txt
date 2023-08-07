@@ -1,3 +1,5 @@
+
+matplotlib-inline @ file:///tmp/build/80754af9/matplotlib-inline_1628242447089/work
 yfinance==0.2.27
 zict==2.0.0
 
