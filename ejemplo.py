@@ -7,7 +7,7 @@ import streamlit as st
 tickers = ["^NDX", "CL=F", "GC=F", "SI=F", "EURUSD=X", "BTC-USD", "ETH-USD"]
 
 
-st.title("Evolucion de Acciones y Bonos")
+st.title("Evolución de Bonos y Commodities")
 
 selected_tickers = st.multiselect("Selecciona acciones", tickers, default=tickers[:1])
 start_date = st.date_input('Fecha Inicial', value = pd.to_datetime("2017-01-31"))
