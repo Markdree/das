@@ -103,7 +103,7 @@ def get_chart_price(data):
 
     lines = (
         alt.Chart(data, title="Evolución de Precios de Indices y Commodities")
-        .mark_line()
+        .mark_bar()
         .encode(
             x=alt.X("Date", title="Fecha"),  # Cambia el nombre del eje X
             y=alt.Y("Adj Close", title="Precio (USD)"),  # Cambia el nombre del eje Y,
